@@ -1,5 +1,7 @@
 package interview.javaprograms;
 
+import java.util.Arrays;
+
 public class MergeArrays {
 	
 	public static void main(String[] args) {
@@ -13,8 +15,9 @@ public class MergeArrays {
 			c[index++] = a[i];
 			c[index++] = b[i];
 		}
-		for(int k = 0; k < c.length; k++)
-			System.out.println(c[k]);
+		System.out.println(Arrays.toString(c));
+//		for(int k = 0; k < c.length; k++)
+//			System.out.println(c[k]);
 	}
 
 }

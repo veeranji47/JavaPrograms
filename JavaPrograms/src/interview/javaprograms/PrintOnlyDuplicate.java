@@ -1,5 +1,6 @@
 package interview.javaprograms;
 
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
@@ -16,10 +17,12 @@ public class PrintOnlyDuplicate {
 					map.put(ch, 1);
 			}
 		}
+		//System.out.println(map);
 		//print only duplicate values
 		for(Entry<Character, Integer> hash :map.entrySet()) {
 			if(hash.getValue() > 1) {
-				System.out.println(hash.getKey());
+				System.out.println(hash.getKey()+"--"+hash.getValue());
+				
 			}
 		}
 		//print only unique values

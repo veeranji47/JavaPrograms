@@ -1,7 +1,7 @@
 package interview.javaprograms;
 
 public class ReverseEachWordCharacters {
-	String projectName, createdBy;
+	//String projectName, createdBy;
 	public static void main(String[] args) {
 		String s = "Welcome to the Tk", rev = "";
 		String[] s1 = s.split(" ");

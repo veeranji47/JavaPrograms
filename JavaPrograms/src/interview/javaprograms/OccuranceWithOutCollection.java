@@ -10,8 +10,12 @@ public class OccuranceWithOutCollection {
 			
 			int count=0;
 			for(int j=0;j<s.length();j++) {
-				if(s.charAt(i)==s.charAt(j) && s.charAt(i)!=' ')
+				if(s.charAt(i)==s.charAt(j) && s.charAt(i)!=' ') {
 					count++;
+					
+					
+					
+				}
 				
 			}	
 			if(count > 1)

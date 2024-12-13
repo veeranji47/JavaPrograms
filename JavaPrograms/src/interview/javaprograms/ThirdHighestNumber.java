@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ThirdHighestNumber {
 	public static void main(String[] args) {
-		int a[] = {2,6,4,6,1,9,9};
+		int a[] = {2,6,4,4,6,1,9,9};
 		int l = a[0], secl = a[0], thirdl = a[0];
 		Arrays.sort(a);
 		for(int i = 0; i<a.length; i++) {
