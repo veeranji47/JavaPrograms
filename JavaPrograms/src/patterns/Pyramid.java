@@ -13,7 +13,7 @@ public class Pyramid {
 			for(int k=i-1;k>=1;k--) {
 				System.out.print("* ");
 			}
-			System.out.println();
+			//System.out.println();
 	}
 	}
 
